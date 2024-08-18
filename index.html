@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="assets/img/head-2.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <title>headphones.com</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><i class="fa-solid fa-headphones-simple"></i>Soundbox</a
+      >
+      <ul class="navbar">
+        <li><a class="active" href="#">Overveiw</a></li>
+        <li><a href="#">Teach Specs</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <div class="head-icon">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-moon" id="darkmode"></div>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="home-image">
+        <img src="assets/img/head-2.png" alt="image1" class="one" />
+      </div>
+
+      <div class="home-text">
+        <h1>
+          Wireless <br />
+          Headphones
+        </h1>
+        <h5>The Smarter Way to Listen</h5>
+        <h3>$199.99</h3>
+        <a href="#"
+          ><input
+            class="btn"
+            type="button"
+            value="Shop Now"
+            onclick="alert('You Click me')"
+        /></a>
+      </div>
+    </section>
+
+    <div class="main">
+      <div class="row">
+        <li>
+          <img
+            src="assets/img/head-2.png"
+            onclick="slider('assets/img/head-2.png')"
+            width="100vh"
+            alt="image2"
+          />
+        </li>
+      </div>
+
+      <div class="row row2">
+        <li>
+          <img
+            src="assets/img/head-5.png"
+            onclick="slider('assets/img/head-5.png')"
+            width="100vh"
+            alt="image2"
+          />
+        </li>
+      </div>
+
+      <div class="row row3">
+        <li>
+          <img
+            src="assets/img/head-3.png"
+            onclick="slider('assets/img/head-3.png')"
+            width="100vh"
+            alt="image2"
+          />
+        </li>
+      </div>
+    </div>
+
+    <a href="#" class="bottom"
+      >Scroll Down<i class="fa-solid fa-circle-arrow-down"></i
+    ></a>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
